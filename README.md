@@ -1,6 +1,7 @@
 Live Website Preview: https://nischint007.github.io/FlowParty/
 
 🌊 Flow Party — A Creative Web Recreation
+
 A pixel-perfect, animation-rich recreation of a No-Code Awwwarded website, built entirely from scratch using GSAP, Lenis, and Vanilla JS.
 
 🎨 About the Project
