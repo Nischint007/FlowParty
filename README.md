@@ -5,6 +5,7 @@ Live Website Preview: https://nischint007.github.io/FlowParty/
 A pixel-perfect, animation-rich recreation of a No-Code Awwwarded website, built entirely from scratch using GSAP, Lenis, and Vanilla JS.
 
 🎨 About the Project
+
 Flow Party is a vibrant and dynamic website that I recreated from the ground up as a personal challenge and portfolio piece. The original site was built with No-Code tools and recognized by Awwwards, but I rebuilt it entirely with code, using:
 
 ⚡ Vanilla JavaScript
