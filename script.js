@@ -238,7 +238,7 @@ window.addEventListener("load", () => {
         trigger: "#page6",
         scroller: "body",
         start: "top 70%",
-        end: "top 25%",
+        end: "top 20%",
         scrub: 1.5
       }
     });

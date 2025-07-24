@@ -1,12 +1,12 @@
 @font-face {
     font-family: myFont;
-    src: url(Font-4.woff2);
+    src: url(Font-2.woff2);
     font-display: swap;
 }
 
 @font-face {
     font-family: myFont-2;
-    src: url(Font-3.woff2);
+    src: url(Font-1.woff2);
     font-display: swap;
 }
 
@@ -223,25 +223,25 @@ nav {
 
 #left-eye {
     position: absolute;
-    top: 45%;
-    left: 20%;
+    top: 42%;
+    left: 19%;
     transform: translateY(-50%);
 }
 
 #left-eye img {
-    width: 3.5vw;
+    width: 4.6vw;
     animation: eyeRotate 10s infinite linear;
 }
 
 #right-eye img {
-    width: 3.5vw;
+    width: 4.6vw;
     animation: eyeRotate 10s infinite linear;
 }
 
 #right-eye {
     position: absolute;
-    top: 45%;
-    right: 20%;
+    top: 42%;
+    right: 19%;
     transform: translateY(-50%);
 }
 
@@ -252,8 +252,8 @@ nav {
 }
 
 #mouth {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     position: absolute;
     top: 70%;
@@ -266,8 +266,8 @@ nav {
 
 @keyframes animate {
     to {
-        width: 1.8vw;
-        height: 10vh;
+        width: 2.2vw;
+        height: 11vh;
     }
 }
 
@@ -398,7 +398,7 @@ nav {
 #page3-img {
     position: absolute;
     top: 35%;
-    right: 2%;
+    right: 10%;
     width: 70vh;
     transform: translateY(-50%);
 }
@@ -412,9 +412,9 @@ nav {
 #page3-img-2 {
     position: absolute;
     top: 15%;
-    right: 10%;
-    width: 20vw;
-    height: 40vh;
+    right: 9%;
+    width: 24vw;
+    height: 43vh;
     transform: translateY(-50%);
     rotate: 8deg;
 }
@@ -497,7 +497,7 @@ nav {
     left: -3.5%;
     transform: translateY(-50%);
     width: 25vw;
-    height: 40vh;
+    height: 42vh;
 }
 
 #page3-img-3 img {
@@ -508,7 +508,7 @@ nav {
 
 #page3-img-4 {
     position: absolute;
-    top: 95%;
+    top: 94%;
     right: 2%;
     transform: translateY(-50%);
     width: 25vw;
@@ -1133,8 +1133,8 @@ nav {
 }
 
 #page5-wave-box div {
-    width: 200px;
-    height: 200px;
+    width: 160px;
+    height: 160px;
     background-color: black;
     border-radius: 50%;
 }
@@ -1154,11 +1154,11 @@ nav {
 
 #page6-img {
     position: absolute;
-    top: 55%;
+    top: 55.3%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 80vw;
-    height: 200vh;
+    height: 205vh;
     overflow: hidden;
 }
 
@@ -1284,7 +1284,7 @@ nav {
     right: -3%;
     transform: translateY(-50%);
     width: 30vw;
-    height: 40vh;
+    height: 41vh;
     transform: rotateY(180deg);
 }
 
