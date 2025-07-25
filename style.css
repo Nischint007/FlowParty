@@ -542,7 +542,7 @@ nav {
     right: 0%;
     transform: translateY(-50%);
     width: 22vw;
-    height: 30vh;
+    height: 32vh;
     transform: rotateY(180deg);
     pointer-events: none;
 }
@@ -1286,7 +1286,7 @@ nav {
     right: -3%;
     transform: translateY(-50%);
     width: 30vw;
-    height: 41vh;
+    height: 43vh;
     transform: rotateY(180deg);
 }
 
