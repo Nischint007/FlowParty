@@ -224,24 +224,24 @@ nav {
 #left-eye {
     position: absolute;
     top: 42%;
-    left: 19%;
+    left: 20%;
     transform: translateY(-50%);
 }
 
 #left-eye img {
-    width: 4.6vw;
+    width: 3.7vw;
     animation: eyeRotate 10s infinite linear;
 }
 
 #right-eye img {
-    width: 4.6vw;
+    width: 3.7vw;
     animation: eyeRotate 10s infinite linear;
 }
 
 #right-eye {
     position: absolute;
     top: 42%;
-    right: 19%;
+    right: 20%;
     transform: translateY(-50%);
 }
 
@@ -266,8 +266,8 @@ nav {
 
 @keyframes animate {
     to {
-        width: 2.2vw;
-        height: 11vh;
+        width: 1.9vw;
+        height: 10vh;
     }
 }
 
@@ -398,7 +398,7 @@ nav {
 #page3-img {
     position: absolute;
     top: 35%;
-    right: 10%;
+    right: 3%;
     width: 70vh;
     transform: translateY(-50%);
 }
@@ -474,7 +474,7 @@ nav {
     left: 30%;
     transform: translateY(-50%);
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: bold;
     pointer-events: none
 }
 
@@ -487,7 +487,7 @@ nav {
     left: 50%;
     transform: translate(-50%, -50%);
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: bold;
     pointer-events: none;
 }
 
@@ -1133,8 +1133,8 @@ nav {
 }
 
 #page5-wave-box div {
-    width: 160px;
-    height: 160px;
+    width: 190px;
+    height: 190px;
     background-color: black;
     border-radius: 50%;
 }
@@ -1254,13 +1254,15 @@ nav {
     color: white;
     pointer-events: none;
     font-family: myFont-2;
-    font-size: 1.4vw;
+    font-size: 1.5vw;
+    font-weight: bold;
 }
 
 #right-footer {
     color: white;
     pointer-events: none;
     font-size: 1.3vw;
+    font-weight: bold;
 }
 
 #page3-img-5 {
