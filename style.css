@@ -527,7 +527,7 @@ nav {
     left: -3%;
     transform: translateY(-50%);
     width: 32vw;
-    height: 45vh;
+    height: 47vh;
 }
 
 #page1-img-1 img {
@@ -542,7 +542,7 @@ nav {
     right: 0%;
     transform: translateY(-50%);
     width: 22vw;
-    height: 32vh;
+    height: 34vh;
     transform: rotateY(180deg);
     pointer-events: none;
 }
