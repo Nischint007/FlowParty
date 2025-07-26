@@ -398,7 +398,7 @@ nav {
 #page3-img {
     position: absolute;
     top: 35%;
-    right: 3%;
+    right: 10%;
     width: 70vh;
     transform: translateY(-50%);
 }
@@ -497,7 +497,7 @@ nav {
     left: -3.5%;
     transform: translateY(-50%);
     width: 25vw;
-    height: 42vh;
+    height: 45vh;
 }
 
 #page3-img-3 img {
@@ -735,12 +735,13 @@ nav {
     justify-content: center;
     font-family: myFont-2;
     rotate: -4deg;
-    font-size: 1vw;
+    font-size: 1.1vw;
     position: absolute;
     top: 17%;
     left: 50%;
     transform: translate(-50%, -50%);
     pointer-events: none;
+    font-weight: bold;
 }
 
 #page4-heading-2 {
@@ -1133,8 +1134,8 @@ nav {
 }
 
 #page5-wave-box div {
-    width: 190px;
-    height: 190px;
+    width: 200px;
+    height: 200px;
     background-color: black;
     border-radius: 50%;
 }
@@ -1154,11 +1155,11 @@ nav {
 
 #page6-img {
     position: absolute;
-    top: 55.3%;
+    top: 56.3%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 80vw;
-    height: 205vh;
+    height: 210vh;
     overflow: hidden;
 }
 
@@ -1205,7 +1206,7 @@ nav {
 
 #page6-btn {
     position: absolute;
-    top: 90%;
+    top: 91%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 12vw;
@@ -1271,7 +1272,7 @@ nav {
     left: -2%;
     transform: translateY(-50%);
     width: 28vw;
-    height: 40vh;
+    height: 43vh;
 }
 
 #page3-img-5 img {
@@ -1286,7 +1287,7 @@ nav {
     right: -3%;
     transform: translateY(-50%);
     width: 30vw;
-    height: 43vh;
+    height: 45vh;
     transform: rotateY(180deg);
 }
 
