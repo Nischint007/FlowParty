@@ -37,7 +37,7 @@ window.addEventListener("load", () => {
       scrollTrigger: {
         trigger: "#page1",
         scroller: "body",
-        start: "top 100%",
+        start: "top 20%",
         end: "top -90%",
         scrub: true,
       }
