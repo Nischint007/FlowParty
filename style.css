@@ -1130,7 +1130,6 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    overflow: hidden;
 }
 
 #page5-wave-box div {
@@ -2212,7 +2211,7 @@ nav {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    overflow: hidden;
+    overflow: visible;
 }
 
 #container-heading-1 {
