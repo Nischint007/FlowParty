@@ -280,4 +280,41 @@ window.addEventListener("load", () => {
     });
 
   });
+  const tracker = document.querySelector("#tracker");
+  const smiley = document.querySelector("#smiley");
+  const eyes = document.querySelectorAll("#left-eye, #right-eye");
+  const mouth = document.querySelector("#mouth");
+
+  tracker.addEventListener("mousemove", (e) => {
+    const{width, height, left, top} = tracker.getBoundingClientRect();
+    const x = e.clientX - left- width/ 2;
+    const y = e.clientY - top-height/ 2;
+
+    gsap.to(smiley,{
+      x: x/5,
+      y: y/5,
+      duration: 0.6,
+      ease: "power3.out"
+    });
+    gsap.to(eyes,{
+      x: x/10,
+      y: y/10,
+      duration: 0.6,
+      ease: "power3.out"
+    });
+    gsap.to(mouth,{
+      x: x/10,
+      y: y/10,
+      duration: 0.6,
+      ease: "power3.out"
+    });
+  });
+  tracker.addEventListener("mouseleave", (e) => {
+    gsap.to([smiley, eyes, mouth],{
+      x: 0,
+      y: 0,
+      duration: 1,
+      ease: "power2.out"
+    });
+  });
 });

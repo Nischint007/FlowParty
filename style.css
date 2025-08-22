@@ -203,29 +203,42 @@ nav {
     white-space: nowrap;
     pointer-events: none;
 }
-
-#smiley {
-    width: 370px;
-    height: 370px;
-    border-radius: 50%;
-    background: url(Img-3.png) no-repeat 50% 50%;
-    background-size: cover;
-    background-color: #5546FF;
-    position: absolute;
-    top: 46%;
+#tracker{
+    width: 90%;
+    height: 90vh;
+    position: relative;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
     align-items: center;
     justify-content: center;
-    border: none;
+    overflow: hidden;
+    z-index: 50;
+}
+#smiley{
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    width: 370px;
+    height: 370px;
+    border-radius: 100%;
+    background-image: url(Img-3.png);
+    background-size: cover;
+    background-position: center;
+    background-color: #5546FF;
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
 }
 
 #left-eye {
     position: absolute;
-    top: 42%;
+    top: 30%;
     left: 20%;
-    transform: translateY(-50%);
+    pointer-events: none;
 }
 
 #left-eye img {
@@ -240,9 +253,9 @@ nav {
 
 #right-eye {
     position: absolute;
-    top: 42%;
+    top: 30%;
     right: 20%;
-    transform: translateY(-50%);
+    pointer-events: none;
 }
 
 @keyframes eyeRotate {
@@ -256,18 +269,17 @@ nav {
     height: 40px;
     border-radius: 50%;
     position: absolute;
-    top: 70%;
-    left: 50%;
-    animation: animate 2s infinite alternate-reverse;
+    top: 60%;
+    left: 45%;
+    animation: animate 2.5s infinite alternate-reverse;
     border-radius: 5vw;
-    transform: translate(-50%, -50%);
     background-color: black;
+    pointer-events: none;
 }
 
 @keyframes animate {
     to {
-        width: 1.9vw;
-        height: 10vh;
+        height: 11vh;
     }
 }
 
@@ -276,6 +288,7 @@ nav {
     top: 70%;
     left: 66.5%;
     transform: translate(-50%, -50%);
+    pointer-events: none;
 }
 
 #rotating-svg img {
@@ -528,6 +541,7 @@ nav {
     transform: translateY(-50%);
     width: 32vw;
     height: 47vh;
+    pointer-events: none;
 }
 
 #page1-img-1 img {
@@ -1935,6 +1949,7 @@ nav {
     position: relative;
     overflow-x: hidden;
    }
+
    #page4-heading-1 {
     color: white;
     font-size: 20vw;
