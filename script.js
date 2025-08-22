@@ -58,7 +58,7 @@ window.addEventListener("load", () => {
 
     const tl = gsap.timeline();
     tl.from(split12.chars, {
-      opacity: 0,
+      autoAlpha: 0,
       stagger: 0.05,
       scale: 0.5,
       y: 400,
@@ -66,8 +66,8 @@ window.addEventListener("load", () => {
       ease: "power3.out"
     });
     tl.to("#loader div", {
-      height: "10vh",
-      duration: 1,
+      height: "0vh",
+      duration: 1.3,
       stagger: {
         amount: 1,
         from: "start",
@@ -75,7 +75,7 @@ window.addEventListener("load", () => {
       },
       ease: "power2.out"
     }, "anim");
-    tl.to("#loader", { y: -980, duration: 3, ease: "back.out" }, "anim");
+    tl.to("#loader", { y: -980, duration: 3, ease: "power3.out" }, "anim");
     tl.to("#loader-txt", { opacity: 0, ease: "power2.out" }, "anim+=0.2");
     tl.set("#loader-txt", { display: "none" }, "anim+=1");
     tl.set("#loader", { display: "none" }, "anim+=3.1");
