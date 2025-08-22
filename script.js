@@ -71,7 +71,7 @@ window.addEventListener("load", () => {
       stagger: {
         amount: 1,
         from: "start",
-        each: 0.35
+        each: 0.45
       },
       ease: "power2.out"
     }, "anim");
